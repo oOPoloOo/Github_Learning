@@ -2,7 +2,7 @@
 
 #cards 
 {    
-    > div:nth-child(1)
+    #allCardsDiv
     {
         display: flex;
         align-items: center; 
@@ -31,12 +31,12 @@
         }
     }
  
-    > div:nth-child(2) 
+    > #moreCardsButtonDiv
     {        
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: 40px;
+        margin: 40px 10px;
 
         >button
         {
