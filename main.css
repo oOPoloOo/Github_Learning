@@ -27,6 +27,35 @@ body {
     max-width: 1200px;
 }
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Formos elementai */
+form label, form input {
+    margin-bottom: 10px;
+}
+
+/* Atskirai nustatyti `submit` mygtukui */
+form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d279d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Pakeiskite mygtuko spalvą, kai pelė yra virš jo */
+form input[type="submit"]:hover {
+    background-color: #180203;
+} 
+
 .logo {
     width: 150px;
 }
