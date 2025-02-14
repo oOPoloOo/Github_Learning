@@ -135,45 +135,53 @@ form input[type="submit"]:hover {
     background: #333;
 }
 
-#cards {
-    >div:nth-child(1) {
+#cards 
+{    
+    #allCardsDiv
+    {
         display: flex;
-        align-items: center;
+        align-items: center; 
         gap: 20px;
-        margin: 10px 20px;
-
-        .productCard {
+        margin: 10px 20px;  
+        
+        .productCard
+        {           
             transition: 0.3s;
             width: 40%;
 
-            .infoDiv {
+            .infoDiv 
+            {
                 display: flex;
                 align-items: center;
                 flex-direction: column;
                 margin-top: -4px;
                 background-color: lightpink;
                 padding: 2px 16px;
-            }
+            }        
         }
 
-        .productCard:hover {
+        .productCard:hover 
+        {  
             border: 3px solid orangered;
         }
     }
-
-    >div:nth-child(2) {
+ 
+    > #moreCardsButtonDiv
+    {        
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: 40px;
+        margin: 40px 10px;
 
-        >button {
+        >button
+        {
             padding: 1% 2%;
-            font-size: 2rem;
-            background-color: white;
+            font-size: 2rem; 
+            background-color: white; 
         }
 
-        >button:hover {
+        >button:hover
+        {
             box-shadow: 0 8px 16px 0 lightpink;
             background-color: lightpink;
         }
