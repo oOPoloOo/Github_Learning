@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,55 +9,64 @@
     <script src="../fetch.js" type="module"></script>
     <!-- <script defer src="../main.js"></script> -->
 </head>
+
 <body>
     <div id="header-placeholder">
     </div>
     <main>
         <img src="https://ausines.com/wp-content/uploads/2019/11/Ausini%C5%B3-parametrai-specifikacijos-1.jpeg"
             alt="ausiniuParametrai">
-        <h2>Ausinių parametrai/specifikacijos</h2>
-        <p>Pagrindinės gamintojų pateikiamos ausinių specifikacijos: </p>
-        <ul>
-            <li>Kaip jas vertinti ir suprasti?</li>
-            <li>Kaip pagal specifikacijas išsirinkti ausines išmaniam telefonui, kompiuteriui, aukštesnės klasės garso
-                kortai, galingam stiprintuvui?</li>
-            <li>Ar pagal specifikacijas galima numanyti kaip ausinės kokybiškai atkuria garsą?</li>
-        </ul>
-        <h3>Ausinių varža (impedance)</h3>
-        <p>Varža matuojamai omais (ohm, Ω). Nesigilinant į technines detales, varža nusako kaip ausinės geba atlaikyti
-            stiprintuvo apkrovas. Kuo didesnė varža, tuo galingesnį stiprintuvą galima jungti. Iš kitos pusės – norint
-            klausyti didelės varžos ausines pakankamu garsu, reikia galingo stiprintuvo. Tačiau praktikoje, kasdieną
-            naudojamuose garso šlatiniuose (ypač nešiojamuose) įmontuoti stiprintuvai nebūna itin galingi, ausinėms
-            didelių apkrovų atlaikyti nereikia, o kad jos grotų pakankamai garsiai, ausinių varža turi būti nedidelė,
-            iki ~40 ohm. </p>
 
-        <h3>Ausinių jautrumas (Sensitivity)</h3>
-        <p>Jautrumas matuojamas decibelais (dB). Garsiakalbių jautrumas nusako kaip jie išnaudoja į juos paduodamą
-            stiprintuvo galią. Tarkime, nustačius išmaniąjame telefone garso lygį ties 50%, didesnio jautrumo ausinės
-            gros garsiau, nei žemesnį jautrumą turinčios prie to paties garso lygio.</p>
+        <div id="straipsnisstilius">
+            <h2>Ausinių parametrai/specifikacijos</h2>
+            <p>Pagrindinės gamintojų pateikiamos ausinių specifikacijos: </p>
+            <ul>
+                <li>Kaip jas vertinti ir suprasti?</li>
+                <li>Kaip pagal specifikacijas išsirinkti ausines išmaniam telefonui, kompiuteriui, aukštesnės klasės
+                    garso
+                    kortai, galingam stiprintuvui?</li>
+                <li>Ar pagal specifikacijas galima numanyti kaip ausinės kokybiškai atkuria garsą?</li>
+            </ul>
+            <h3>Ausinių varža (impedance)</h3>
+            <p>Varža matuojamai omais (ohm, Ω). Nesigilinant į technines detales, varža nusako kaip ausinės geba
+                atlaikyti
+                stiprintuvo apkrovas. Kuo didesnė varža, tuo galingesnį stiprintuvą galima jungti. Iš kitos pusės –
+                norint
+                klausyti didelės varžos ausines pakankamu garsu, reikia galingo stiprintuvo. Tačiau praktikoje, kasdieną
+                naudojamuose garso šlatiniuose (ypač nešiojamuose) įmontuoti stiprintuvai nebūna itin galingi, ausinėms
+                didelių apkrovų atlaikyti nereikia, o kad jos grotų pakankamai garsiai, ausinių varža turi būti
+                nedidelė,
+                iki ~40 ohm. </p>
 
-        <h3>Kaip išsirinkti ausines prie telefono?</h3>
-        <p>Telefonams ir kitiems nešiojamiems įrenginiams su silpnesniais ausinių stiprintuvais ausinės turi būti
-            didelio jautrumo ir nedidelės varžos. Orientacijai galima apibendrinti į išmaniesiems telefonams tinkamų
-            ausinių taisyklę: &gt;100dB/&lt;40ohm. </p>
+            <h3>Ausinių jautrumas (Sensitivity)</h3>
+            <p>Jautrumas matuojamas decibelais (dB). Garsiakalbių jautrumas nusako kaip jie išnaudoja į juos paduodamą
+                stiprintuvo galią. Tarkime, nustačius išmaniąjame telefone garso lygį ties 50%, didesnio jautrumo
+                ausinės
+                gros garsiau, nei žemesnį jautrumą turinčios prie to paties garso lygio.</p>
+
+            <h3>Kaip išsirinkti ausines prie telefono?</h3>
+            <p>Telefonams ir kitiems nešiojamiems įrenginiams su silpnesniais ausinių stiprintuvais ausinės turi būti
+                didelio jautrumo ir nedidelės varžos. Orientacijai galima apibendrinti į išmaniesiems telefonams tinkamų
+                ausinių taisyklę: &gt;100dB/&lt;40ohm. </p>
 
 
-                <h3> Dažnių atkūrimas</h3>
-                <p> Ausinių atkuriamų dažnių diapazonas – labiausiai klaidinantis parametras. Gamintojai dažniausiai
-                    nurodo dažnių atkūrimo ribas, tačiau praktikoje jų išgirsti beveik neįmanoma. Nuo 20Hz iki 20 000Hz
-                    pagal specifikacijas atkuriančios ausinės ribinius dažnius atkurs žymiai tyliau, nei dažnius tarp
-                    100Hz ir 10 000Hz (kartais net keliasdešimt kartų tyliau). Aukštesnio lygio ausinių gamintojai
-                    kartais nurodo kokioje dinaminėje amplitudėje pateikti matavimai, pvz., +-3dB ar +-1,5dB. Tai parodo
-                    kaip tolygiai atkuriama dažnių juosta tarp nurodytų ribų. Ausinių garso kokybei yra gerokai
-                    svarbiau, kokie nuokrypiai yra tarp atkuriamų dažnių juostos ribų, nei plotis tarp jų.</p>
+            <h3> Dažnių atkūrimas</h3>
+            <p> Ausinių atkuriamų dažnių diapazonas – labiausiai klaidinantis parametras. Gamintojai dažniausiai
+                nurodo dažnių atkūrimo ribas, tačiau praktikoje jų išgirsti beveik neįmanoma. Nuo 20Hz iki 20 000Hz
+                pagal specifikacijas atkuriančios ausinės ribinius dažnius atkurs žymiai tyliau, nei dažnius tarp
+                100Hz ir 10 000Hz (kartais net keliasdešimt kartų tyliau). Aukštesnio lygio ausinių gamintojai
+                kartais nurodo kokioje dinaminėje amplitudėje pateikti matavimai, pvz., +-3dB ar +-1,5dB. Tai parodo
+                kaip tolygiai atkuriama dažnių juosta tarp nurodytų ribų. Ausinių garso kokybei yra gerokai
+                svarbiau, kokie nuokrypiai yra tarp atkuriamų dažnių juostos ribų, nei plotis tarp jų.</p>
 
-                <h3>Apie specifikacijas trumpai </h3>
-                <p> Pagal gamintojų pateiktus ausinių parametrus galima tik numanyti kaip garsiai jos gros jungiant prie
-                    skirtingos galios garso šaltinių. Ar tie parametrai nusako, kaip kokybiškai ausinės atkuria garsą?
-                    Deja, ne. Tai geriausia galima sužinoti tik išbandžius pačiam.</p>
+            <h3>Apie specifikacijas trumpai </h3>
+            <p> Pagal gamintojų pateiktus ausinių parametrus galima tik numanyti kaip garsiai jos gros jungiant prie
+                skirtingos galios garso šaltinių. Ar tie parametrai nusako, kaip kokybiškai ausinės atkuria garsą?
+                Deja, ne. Tai geriausia galima sužinoti tik išbandžius pačiam.</p>
+        </div>
     </main>
     <div id="footer-placeholder"></div>
-   
+
 </body>
 
 </html>
