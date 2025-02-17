@@ -68,4 +68,4 @@ const clearGoodsCards = () =>
   }
 }
 
-export {printProductCards, buttonToShowMore}
+export  {printProductCards, buttonToShowMore}

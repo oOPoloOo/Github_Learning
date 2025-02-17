@@ -12,7 +12,9 @@ window.onload = (e) =>
 buttonToShowMore();
 buttonToShowLess();
 
-// Footer'io ir Header'io importavimas į puslapius pages folderyje.
+// // Footer'io ir Header'io importavimas į puslapius pages folderyje.
+
+
 document.addEventListener('DOMContentLoaded', () => {
   fetch('header.html')
     .then(response => response.text())
@@ -36,5 +38,3 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => console.error('Error fetching footer.html:', error));
 });
-
-
