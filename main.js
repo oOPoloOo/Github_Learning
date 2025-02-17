@@ -1,5 +1,5 @@
-import { printProductCards } from "./modules/productSection.js";
-import { printGoodsCards } from "./modules/goodsSection.js";
+import { printProductCards, buttonToShowMore } from "./modules/productSection.js";
+import { printGoodsCards, buttonToShowLess } from "./modules/goodsSection.js";
 
 window.onload = (e) => 
 {  
@@ -8,3 +8,5 @@ window.onload = (e) =>
     printGoodsCards();
 };
 
+buttonToShowMore();
+buttonToShowLess()

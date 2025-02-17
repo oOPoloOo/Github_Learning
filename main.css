@@ -190,8 +190,10 @@ form input[type="submit"]:hover {
 
 #goods 
 {    
+    display: none;
+
     #allGoodsDiv
-    {       
+    {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(322px, 1fr));
         

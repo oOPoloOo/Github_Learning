@@ -2,9 +2,12 @@ import ProductCard from './ProductCard.js'
 import { goodsData as allGoods } from '../data/goodsData.js';
 
 const goodsDiv = document.querySelector('#goods > #allGoodsDiv');
+const goodsSection = document.getElementById('goods');
+const buttonShowLess = document.querySelector('#lessCardsButtonDiv > button');
+const buttonShowMore = document.querySelector('#moreCardsButtonDiv > button');
 
 
-export const printGoodsCards = () => 
+const printGoodsCards = () => 
 {       
   allGoods.forEach( card => 
   {     
@@ -16,3 +19,13 @@ export const printGoodsCards = () =>
   });
 }
 
+const buttonToShowLess = () => 
+{
+  buttonShowLess.addEventListener('click', () => {
+    goodsSection.style.display = 'none';
+    buttonShowLess.style.visibility = 'hidden';
+    buttonShowMore.style.visibility = 'visible';
+  });
+}
+
+export {printGoodsCards, buttonToShowLess}
