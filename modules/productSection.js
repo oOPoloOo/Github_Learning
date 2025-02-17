@@ -23,7 +23,7 @@ const printProductCards = () =>
   const mpCard = document.querySelector('#allCardsDiv > .mp3');
   const accessoriesCard = document.querySelector('#allCardsDiv > .accessories');
  
-  categoryCardsAddListeners(headphonesCard, amplifierCard , mpCard, accessoriesCard);
+   categoryCardsAddListeners(headphonesCard, amplifierCard , mpCard, accessoriesCard);
 }
   
 
@@ -62,8 +62,7 @@ const categoryCardsToFilter = (e) =>
 
 const clearGoodsCards = () => 
 {  
-  while (goodsDiv.firstChild) {
-    console.log(goodsDiv.lastChild)
+  while (goodsDiv.firstChild) {    
     goodsDiv.removeChild(goodsDiv.lastChild);
   }
 }

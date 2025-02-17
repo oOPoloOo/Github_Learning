@@ -1,11 +1,10 @@
 import ProductCard from './ProductCard.js'
 import { goodsData as allGoods } from '../data/goodsData.js';
 
-const goodsDiv = document.querySelector('#goods > #allGoodsDiv');
+const goodsDiv = document.querySelector('#allGoodsDiv');
 const goodsSection = document.getElementById('goods');
 const buttonShowLess = document.querySelector('#lessCardsButtonDiv > button');
 const buttonShowMore = document.querySelector('#moreCardsButtonDiv > button');
-
 
 const printGoodsCards = () => 
 {       
