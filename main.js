@@ -9,4 +9,5 @@ window.onload = (e) =>
 };
 
 buttonToShowMore();
-buttonToShowLess()
+buttonToShowLess();
+

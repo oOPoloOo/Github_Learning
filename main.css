@@ -143,7 +143,7 @@ form input[type="submit"]:hover {
         align-items: center; 
         gap: 20px;
         margin: 10px 20px;  
-        
+       
         .productCard
         {           
             transition: 0.3s;
