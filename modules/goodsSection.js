@@ -7,9 +7,12 @@ const goodsDiv = document.querySelector('#goods > #allGoodsDiv');
 export const printGoodsCards = () => 
 {       
   allGoods.forEach( card => 
-  {      
-    const cardDiv = new ProductCard(card);     
-    goodsDiv.appendChild(cardDiv);
+  {     
+    if(card.category == "mp3")
+    { 
+      const cardDiv = new ProductCard(card);     
+      goodsDiv.appendChild(cardDiv);
+    }
   });
 }
 
